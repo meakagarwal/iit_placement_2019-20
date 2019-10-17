@@ -37,7 +37,7 @@ using namespace std;
         cost1=solve(grid,dp,x1,y1+1,x2+1);
         
     //right right
-    if(y1+1<n && y2+1<n )
+    if(y1+1<n && y2+1<n ) 
         cost2=solve(grid,dp,x1,y1+1,x2);
         
     //down right
@@ -72,3 +72,4 @@ int main() {
     
     return 0;
 }
+
